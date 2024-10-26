@@ -39,7 +39,7 @@ export function MyNavbar() {
   };
 
   return (
-    <nav className="sticky top-0 z-10 bg-blue-900 backdrop-blur-md shadow-sm">
+    <nav className="sticky top-0 z-10 bg-white backdrop-blur-md shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2">
         <div className="flex items-center justify-between h-16 md:h-20">
           <div className="flex">
@@ -47,7 +47,7 @@ export function MyNavbar() {
               <img
                 src="/logo.png"
                 alt="albaraah Logo"
-                className="w-28 md:w-28 object-cover"
+                className="w-20 md:w-28 object-cover"
               />
             </NavLink>
           </div>
@@ -59,7 +59,7 @@ export function MyNavbar() {
                   key={item.name}
                   to={item.path}
                   className={({ isActive }) =>
-                    isActive ? "text-white" : "text-[#C4AC6D]"
+                    isActive ? "text-black" : "text-[#C4AC6D]"
                   }
                 >
                   {item.name}
@@ -84,7 +84,7 @@ export function MyNavbar() {
               <span className="sr-only">Open main menu</span>
               {!isOpen ? (
                 <svg
-                  className="block h-6 w-6 text-white"
+                  className="block h-6 w-6 text-black"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -127,7 +127,7 @@ export function MyNavbar() {
               <Link
                 key={item.name}
                 to={item.path}
-                className="block px-3 py-3 text-white rounded-md text-lg font-medium"
+                className="block px-3 py-3 text-black rounded-md text-lg font-medium"
                 onClick={() => setIsOpen(false)}
               >
                 {item.name}
@@ -137,7 +137,7 @@ export function MyNavbar() {
             <div className="pt-4">
               <button
                 onClick={toggleLanguage}
-                className="py-2 px-4 w-full bg-gray-200 rounded hover:bg-gray-300"
+                className="py-2 px-4 w-full bg=black rounded hover:bg-gray-300"
               >
                 {currentLanguage === "en" ? "ARABIC" : "ENGLISH"}
               </button>
