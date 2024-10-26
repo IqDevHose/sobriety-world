@@ -21,7 +21,7 @@ const Footer = () => {
           </div>
 
           <div className="flex flex-col ">
-            <div className="flex items-center gap-3">
+            {/* <div className="flex items-center gap-3">
               <FaPhone />
               <a href="tel:+9647707873923" className="hover:text-gray-200">
                 07707873923
@@ -29,19 +29,19 @@ const Footer = () => {
               <FaWhatsapp />
               <FaTelegram />
               <FaViber />
-            </div>
-            <div className="flex items-center gap-3">
+            </div> */}
+            {/* <div className="flex items-center gap-3">
               <FaPhone />
               <a href="tel:+9647801397214" className="hover:text-gray-200">
                 07801397214
               </a>
-            </div>
-            <div className="flex items-center gap-3">
+            </div> */}
+            {/* <div className="flex items-center gap-3">
               <FaPhone />
               <a href="tel:+9647748011579" className="hover:text-gray-200">
                 07748011579
               </a>
-            </div>
+            </div> */}
             <div className="flex items-center gap-3">
               <MdEmail />
               <a
