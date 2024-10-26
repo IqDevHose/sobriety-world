@@ -3,19 +3,31 @@ import { Card } from "@material-tailwind/react";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
 const Gallery = () => {
-  const startImageNumber = 34; // Starting image number
-  const endImageNumber = 49; // Ending image number
-  const galleryImages = [];
+  const accessoriesStart = 34; // Starting image number for Accessories
+  const accessoriesEnd = 40;   // Ending image number for Accessories
+  const phonesStart = 40;      // Starting image number for Phones
+  const phonesEnd = 52;        // Ending image number for Phones
 
-  // Generate paths for images from 34 to 71
-  for (let i = startImageNumber; i <= endImageNumber; i++) {
-    const imageNumber = i.toString().padStart(4, "0"); // Pads with leading zeros (e.g., 0034)
-    galleryImages.push({
+  const accessoriesImages = [];
+  const phoneImages = [];
+
+  // Generate paths for accessories images
+  for (let i = accessoriesStart; i <= accessoriesEnd; i++) {
+    const imageNumber = i.toString().padStart(4, "0");
+    accessoriesImages.push({
       src: `/assets/IMG-20240929-WA${imageNumber}.jpg`,
     });
   }
 
-  // State for modal
+  // Generate paths for phone images
+  for (let i = phonesStart; i <= phonesEnd; i++) {
+    const imageNumber = i.toString().padStart(4, "0");
+    phoneImages.push({
+      src: `/assets/IMG-20240929-WA${imageNumber}.jpg`,
+    });
+  }
+
+  const [selectedCategory, setSelectedCategory] = useState("Accessories");
   const [modalOpen, setModalOpen] = useState(false);
   const [selectedImage, setSelectedImage] = useState("");
 
@@ -29,7 +41,6 @@ const Gallery = () => {
     setSelectedImage("");
   };
 
-  // Memoized ImageCard Component
   const ImageCard = React.memo(({ image, index }) => (
     <Card
       key={index}
@@ -51,11 +62,38 @@ const Gallery = () => {
     </Card>
   ));
 
+  const galleryImages =
+    selectedCategory === "Accessories" ? accessoriesImages : phoneImages;
+
   return (
     <div className="container mx-auto py-16">
       <h2 className="text-4xl md:text-5xl font-bold text-center mb-8">
         Gallery
       </h2>
+
+      {/* Category Tabs */}
+      <div className="flex justify-center mb-8">
+        <button
+          onClick={() => setSelectedCategory("Accessories")}
+          className={`px-4 py-2 mx-2 rounded ${
+            selectedCategory === "Accessories"
+              ? "bg-blue-500 text-white"
+              : "bg-gray-200 text-gray-700"
+          }`}
+        >
+          Accessories
+        </button>
+        <button
+          onClick={() => setSelectedCategory("Phones")}
+          className={`px-4 py-2 mx-2 rounded ${
+            selectedCategory === "Phones"
+              ? "bg-blue-500 text-white"
+              : "bg-gray-200 text-gray-700"
+          }`}
+        >
+          Phones
+        </button>
+      </div>
 
       {/* Responsive Grid for Gallery */}
       <ResponsiveMasonry
