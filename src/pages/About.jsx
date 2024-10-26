@@ -12,7 +12,7 @@ const About = () => {
           <img
             src="/logo.png" // Ensure this path is correct based on your project structure
             alt="About Us Hero"
-            className="w-64 h-48 object-cover mb-10"
+            className="w-64 object-cover mb-10"
           />
           <h1 className="text-4xl md:text-6xl font-bold text-gray-800">
             {t("aboutUs.title")}

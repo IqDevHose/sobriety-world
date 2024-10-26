@@ -67,10 +67,14 @@ const Footer = () => {
         </div>
 
         <img
-          src="/logo.png"
+          src="/logo2.png"
           alt="albaraa Logo"
-          className="hidden md:block md:w-40 object-cover"
+          className="hidden md:block md:w-40 object-cover rounded-lg"
         />
+      </div>
+
+      <div className="text-center mt-2">
+        <p>Powered by IqDevHouse</p>
       </div>
     </footer>
   );
