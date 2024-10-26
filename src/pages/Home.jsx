@@ -12,9 +12,9 @@ const Home = () => {
 
   const staticImages = [
     "/assets/cover.png",
-    "/assets/IMG-20240929-WA0047.jpg",
-    "/assets/IMG-20240929-WA0049.jpg",
-    "/assets/IMG-20240929-WA0052.webp"
+    "/assets/IMG-20240929-WA083.jpg",
+    "/assets/IMG-20240929-WA049.jpg",
+    "/assets/IMG-20240929-WA052.webp"
   ];
 
   const openModal = (image) => {
@@ -93,7 +93,7 @@ const Home = () => {
           </h1> */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
             {/* Left Column: Two stacked images */}
-            <div className="grid grid-rows-2 gap-4">
+            <div className="grid gap-4">
               {staticImages.slice(0, 2).map((image, index) => (
                 <div
                   key={index}
@@ -103,7 +103,7 @@ const Home = () => {
                   <img
                     src={image}
                     alt={`Gallery Image ${index + 1}`}
-                    className="w-full h-full object-cover rounded-[20px] transition-transform duration-300 group-hover:scale-105"
+                    className="object-cover rounded-[20px] transition-transform duration-300 group-hover:scale-105"
                     loading="lazy"
                     onError={(e) => {
                       if (!e.target.src.endsWith("placeholder-image.jpg")) {
@@ -117,7 +117,7 @@ const Home = () => {
             {/* Right Column: Tall image */}
             <div className="flex items-center">
               <div
-                className="group relative overflow-hidden rounded-[20px] shadow-md transition-all duration-300 hover:shadow-lg cursor-pointer w-full"
+                className="group relative overflow-hidden rounded-[20px] transition-all duration-300 hover:shadow-lg cursor-pointer w-full"
                 onClick={() => openModal(staticImages[2])} // Open modal on tall image click
               >
                 <img

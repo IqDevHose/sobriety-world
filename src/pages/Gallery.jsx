@@ -6,17 +6,17 @@ import { useTranslation } from "react-i18next"; // Import useTranslation
 const Gallery = () => {
   const { t } = useTranslation(); // Initialize useTranslation hook
 
-  const accessoriesStart = 34; // Starting image number for Accessories
-  const accessoriesEnd = 40; // Ending image number for Accessories
-  const phonesStart = 40; // Starting image number for Phones
-  const phonesEnd = 52; // Ending image number for Phones
+  const accessoriesStart = 1; // Starting image number for Accessories
+  const accessoriesEnd = 102; // Ending image number for Accessories
+  const phonesStart = 1; // Starting image number for Phones
+  const phonesEnd = 0; // Ending image number for Phones
 
   const accessoriesImages = [];
   const phoneImages = [];
 
   // Generate paths for accessories images
   for (let i = accessoriesStart; i <= accessoriesEnd; i++) {
-    const imageNumber = i.toString().padStart(4, "0");
+    const imageNumber = i.toString().padStart(3, "0");
     accessoriesImages.push({
       src: `/assets/IMG-20240929-WA${imageNumber}.jpg`,
     });
