@@ -19,7 +19,7 @@ const Contact = () => {
         e.preventDefault();
         
         // Construct the mailto link
-        const mailtoLink = `mailto:jaafar0310@gmail.com?subject=Contact from ${formData.name}&body=Name: ${formData.name}%0AEmail: ${formData.email}%0APhone: ${formData.phone}%0A%0A${formData.message}`;
+        const mailtoLink = `mailto:alemalrasana@gmail.com?subject=Contact from ${formData.name}&body=Name: ${formData.name}%0AEmail: ${formData.email}%0APhone: ${formData.phone}%0A%0A${formData.message}`;
         
         // Open the mailto link to trigger the email client
         window.location.href = mailtoLink;
@@ -51,7 +51,7 @@ const Contact = () => {
                         </div>
                         <div className="p-6 bg-gray-100 rounded-lg">
                             <h3 className="text-xl font-semibold">✉️ البريد الاكتروني</h3>
-                            <p className="text-gray-600">jaafar0310@gmail.com</p>
+                            <p className="text-gray-600">alemalrasana@gmail.com</p>
                         </div>
                     </div>
 

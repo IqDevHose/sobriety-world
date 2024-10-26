@@ -3,7 +3,7 @@
   "gallery": "Gallery",
   "about": "About",
   "homePage": {
-    "companyName": "Soberiety World company",
+    "companyName": "Alem Al Rasana Company",
     "companyDescription": "Sobriety World specializes in providing a wide range of smartphones and accessories at competitive wholesale prices. We aim to deliver the latest technology and high-quality mobile solutions to businesses and distributors worldwide. Our company is committed to offering products that meet the highest quality standards, along with exceptional customer service and pricing designed to support the profitability of our partners.",
     "companyDescriptionButton": "About Us",
     "aboutUs": "About us",
@@ -14,65 +14,41 @@
     "contactUsContent": "Feel free to send us a message",
     "contactUsButton": "Get Started"
   },
+  "galleryPage": {
+    "title": "Gallery",
+    "phones": "Phones",
+    "accessories": "Accessories"
+  },
   "footer": {
-    "companyName": "Soberiety World company",
-    "rights": "© 2024 Soberiety world company. All Rights Reserved.",
+    "companyName": "Alem Al Rasana Company company",
+    "rights": "© 2024 Alem Al Rasana Company company. All Rights Reserved.",
     "phone": "",
-    "location": "Baghdad - Zayouna - Rabia Street"
-
+    "location": "Baghdad - Zayouna _ Rabia Street _ Al-Anaqah Commercial Complex - Floor 5"
   },
   "aboutUs": {
     "title": "About Us",
-    "content": "Al-Bara’a Law Office is a prestigious legal firm offering specialized legal consultations and representation across various fields, with a focus on criminal, commercial, and civil law. The office is led by Jaafar AL Maliki, an experienced judge and lawyer with over twenty-five years in judiciary and legal practice. Our commitment to excellence ensures that we provide high-quality legal services, aiming to deliver justice and protect the rights of our clients.",
+    "content": "Founded in Baghdad, Sobriety World is dedicated to being a leading provider of smartphones and accessories at competitive wholesale prices. Our mission is to offer high-quality products that meet the diverse needs of our customers, whether they are retailers, distributors, or end-users. With a commitment to reliability and excellence, we aim to support businesses in the rapidly evolving mobile industry.",
     "ourServices": "Our Services",
     "services": {
-      "1": "Specialized Legal Consultations: Offering expert advice in areas such as criminal law, family law, labor law, contracts, commercial law, and civil law.",
-      "2": "Court Representation: Representing clients in civil, commercial, and criminal courts, handling complex cases with thorough analysis of evidence and strong defense preparation.",
-      "3": "Legal Research and Case Analysis: Conducting advanced legal research, analyzing cases, and preparing customized litigation strategies for our clients."
-    },
-    "areasOfSpecialization": "Areas of Specialization",
-    "specializations": {
-      "1": "Criminal Law: Defending clients in complex criminal cases, preparing appropriate defenses, and analyzing criminal evidence.",
-      "2": "Family Law: Handling family-related cases such as divorce, child custody, and property division.",
-      "3": "Commercial Law: Providing legal consultation and representation in business disputes, commercial contracts, and arbitration.",
-      "4": "Civil Law: Addressing civil matters, including contract disputes, personal status laws, and civil liabilities."
+      "1": "Wholesale Supply of Smartphones and Accessories: We provide a wide range of products, including the latest smartphones and essential accessories such as cases, chargers, and earbuds, all available at competitive wholesale rates.",
+      "2": "Customized Solutions: Understanding that each business has unique needs, we offer tailored solutions that align with your specific requirements, ensuring you have the right products to meet your customers' demands.",
+      "3": "Quality Assurance: We prioritize quality in every product we offer, ensuring that our customers receive reliable and durable items that meet international standards.",
+      "4": "Fast and Reliable Shipping: Our logistics team is dedicated to ensuring timely and efficient delivery of orders, enabling our partners to maintain their stock levels without delays.",
+      "5": "Customer Support: We believe in building strong relationships with our clients, offering dedicated customer service to assist with inquiries, order tracking, and after-sales support."
     },
     "ourGoals": "Our Goals",
     "Goals": {
-      "1": "Achieving Justice: We aim to represent our clients with the highest standards of professionalism, ensuring justice is served fairly.",
-      "2": "Contributing to Legal Development: We are committed to enhancing legal understanding through participation in workshops and legal training.",
-      "3": "Protecting Rights: We focus on safeguarding the human and legal rights of our clients in accordance with current laws and regulations."
+      "1": "Quality Leadership: To be recognized as a leading supplier of high-quality smartphones and accessories in the wholesale market, setting the standard for excellence and reliability.",
+      "2": "Customer Satisfaction: To prioritize our customers' needs by consistently providing exceptional service and products that exceed their expectations.",
+      "3": "Sustainable Growth: To achieve steady growth by expanding our product offerings and market reach, ensuring that we adapt to changing industry trends and customer preferences.",
+      "4": "Partnership Development: To build long-term partnerships with our clients, fostering mutual growth and success in the competitive mobile accessory market.",
+      "5": "Innovation and Adaptability: To continuously innovate our product offerings and business practices, staying ahead of industry trends and meeting the evolving needs of our customers."
     },
-    "history": "Our History",
-    "historyContent": "Al-Bara’a Law Office was founded by Jaafar AL Maliki, a former judge with extensive experience in criminal, commercial, and civil law. Over the course of his career, the founder has held several key judicial positions:",
-    "historyList": {
-      "1": "Lawyer and Judge: Jaafar AL Maliki has over 25 years of experience practicing law, including serving as a judge in civil and commercial courts in Baghdad and Basra.",
-      "2": "Commercial Court Judge: Presided over complex commercial disputes and contract cases as a judge at the Commercial Court in Basra.",
-      "3": "Civil Court Judge: Oversaw civil cases in several courts, including Basra and Maqil.",
-      "4": "Family Court Judge: Led family court cases in Sadr City, handling complex family matters and ensuring the protection of family rights.",
-      "5": "Advisor in Corruption and Immigration Cases: Developed investigation procedures for corruption and immigration cases, and supervised Interpol inquiries at the highest levels."
-    },
-    "publicationsndAchievements": "Publications and Achievements",
-    "publications": {
-      "1": "Editor-in-Chief: Supervised the publication of the 'Legal Truth' magazine from 2008 to 2016, specializing in legal affairs.",
-      "2": "Legal Articles: Authored numerous articles in the Iraqi Judicial Council newspaper and legal digital magazine, discussing various legal issues.",
-      "3": "Television Programs: Featured in a prominent television show, 'Legal Files', which focused on important legal matters in Iraq.",
-      "4": "Notable Judicial Decisions: Delivered key legal rulings in the Federal Court and Basra Court of Appeal, including cases on civil rights protection and legislative annulment."
-    },
-    "training": "Training and Advanced Courses",
-    "trainings": {
-      "1": "Rule of Law and Judicial Reform: Organized by the U.S. Department of Justice.",
-      "2": "Cross-Border Crimes and Judicial Cooperation: Organized by the European Union.",
-      "3": "International Commercial Arbitration: Organized by the U.S. Embassy in Iraq.",
-      "4": "Money Laundering and Financial Crimes: Organized by the United Nations.",
-      "5": "Institute of Criminal Sciences: Specialized training in Italy."
-    },
-    "keyAchievements": "Key Achievements",
-    "achievements": {
-      "1": "Legal Truth Magazine: Led the editorial team of a prominent legal magazine published from 2008 to 2016.",
-      "2": "Published Articles: Authored articles featured in the Iraqi Judicial Council newspaper and online legal platforms.",
-      "3": "Television Program: Appeared in a television program titled 'Legal Files', discussing significant legal issues in Iraq."
-    },
-    "ourLocation": "ourLocation"
-  }
+    "history": "تاريخنا",
+    "historyContent1": "Alem Al Rasana Company for Mobile Phone Trading and Commercial Agencies) was founded in Baghdad with a vision to become a leading provider of mobile phones and accessories in the region. Our journey began with a commitment to quality and customer satisfaction, which has guided us from the very start.",
+    "historyContent2": "Since our establishment, we have focused on building strong relationships with reputable brands, ensuring that we offer the latest technology and innovative products to our customers. Our team of dedicated professionals has worked tirelessly to understand market trends and customer needs, allowing us to adapt and grow in an ever-changing industry.",
+    "historyContent3": "Over the years, عالم الرصانة has expanded its product offerings and market reach, establishing itself as a trusted partner for retailers and distributors. Our commitment to excellence has been recognized in the industry, and we take pride in being a go-to source for high-quality mobile solutions.",
+    "historyContent4": "As we move forward, we continue to embrace innovation and maintain our dedication to providing outstanding service and products, ensuring that we remain at the forefront of the mobile phone trading industry."
+  },
+  "ourLocation": "ourLocation"
 }

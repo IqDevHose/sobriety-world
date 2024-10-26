@@ -1,12 +1,15 @@
 import React, { useState } from "react";
 import { Card } from "@material-tailwind/react";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
+import { useTranslation } from "react-i18next"; // Import useTranslation
 
 const Gallery = () => {
+  const { t } = useTranslation(); // Initialize useTranslation hook
+
   const accessoriesStart = 34; // Starting image number for Accessories
-  const accessoriesEnd = 40;   // Ending image number for Accessories
-  const phonesStart = 40;      // Starting image number for Phones
-  const phonesEnd = 52;        // Ending image number for Phones
+  const accessoriesEnd = 40; // Ending image number for Accessories
+  const phonesStart = 40; // Starting image number for Phones
+  const phonesEnd = 52; // Ending image number for Phones
 
   const accessoriesImages = [];
   const phoneImages = [];
@@ -68,7 +71,7 @@ const Gallery = () => {
   return (
     <div className="container mx-auto py-16">
       <h2 className="text-4xl md:text-5xl font-bold text-center mb-8">
-        Gallery
+        {t("galleryPage.title")}
       </h2>
 
       {/* Category Tabs */}
@@ -81,7 +84,7 @@ const Gallery = () => {
               : "bg-gray-200 text-gray-700"
           }`}
         >
-          Accessories
+          {t("galleryPage.accessories")}
         </button>
         <button
           onClick={() => setSelectedCategory("Phones")}
@@ -91,7 +94,7 @@ const Gallery = () => {
               : "bg-gray-200 text-gray-700"
           }`}
         >
-          Phones
+          {t("galleryPage.phones")}
         </button>
       </div>
 

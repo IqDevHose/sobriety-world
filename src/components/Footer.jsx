@@ -21,15 +21,15 @@ const Footer = () => {
           </div>
 
           <div className="flex flex-col ">
-            {/* <div className="flex items-center gap-3">
+            <div className="flex items-center gap-3">
               <FaPhone />
               <a href="tel:+9647707873923" className="hover:text-gray-200">
-                07707873923
+                07803444600
               </a>
               <FaWhatsapp />
               <FaTelegram />
               <FaViber />
-            </div> */}
+            </div>
             {/* <div className="flex items-center gap-3">
               <FaPhone />
               <a href="tel:+9647801397214" className="hover:text-gray-200">
@@ -45,17 +45,17 @@ const Footer = () => {
             <div className="flex items-center gap-3">
               <MdEmail />
               <a
-                href="mailto:jaafar0310@gmail.com"
+                href="mailto:alemalrasana@gmail.com"
                 className="hover:text-gray-200"
               >
-                jaafar0310@gmail.com
+                alemalrasana@gmail.com
               </a>
             </div>
             {/* New Google Maps Location Section */}
             <div className="flex items-center gap-3">
               <FaMapMarkerAlt />
               <a
-                href="https://maps.app.goo.gl/YY18PMjkj6fzb9J38"
+                // href="https://maps.app.goo.gl/YY18PMjkj6fzb9J38"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-gray-200"

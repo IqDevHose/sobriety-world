@@ -160,7 +160,7 @@ const Home = () => {
           <p className="text-lg text-gray-300 mb-8">
             {t("homePage.contactUsContent")}
           </p>
-          <a href="mailto:jaafar0310@gmail.com">
+          <a href="mailto:alemalrasana@gmail.com">
             <button className="bg-white rounded-full hover:bg-gray-300 px-6 py-1 text-gray-800 font-semibold text-lg">
               {t("homePage.contactUsButton")}
             </button>
