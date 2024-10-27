@@ -28,9 +28,9 @@ const Home = () => {
   };
 
   return (
-    <div className="bg-white font-tajawal">
+    <div className="font-tajawal">
       {/* Main Section */}
-      <section className="container mx-auto py-20">
+      <section className="container mx-auto py-20 text-softblack">
         <div className="flex flex-col md:flex-row items-center justify-between">
           {/* Left side: Text section */}
           <div className="w-full md:w-1/2 mb-10 md:mb-0 px-4">
@@ -39,7 +39,7 @@ const Home = () => {
               <h1 className="font-bold text-4xl md:text-5xl mb-6">
                 {t("homePage.companyName")} {/* Translate company name */}
               </h1>
-              <p className="text-lg text-gray-700 mb-6">
+              <p className="text-lg mb-6">
                 {t("homePage.companyDescription")} {/* Translate company description */}
               </p>
               <Link to={"/about"}>
@@ -57,7 +57,7 @@ const Home = () => {
           <div className="w-full md:w-1/2 flex justify-center px-4">
             <Card className="w-full max-w-lg overflow-hidden rounded-[30px]">
               <img
-                src="/assets/cover.png"
+                src="/assets/typec.png"
                 alt="Fashion Model"
                 className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
               />
@@ -67,18 +67,18 @@ const Home = () => {
       </section>
 
       {/* WHO WE ARE */}
-      <section className="bg-gray-100 py-20">
+      <section className="py-20 text-softblack">
         <div className="container mx-auto flex flex-col md:flex-row items-center">
           <div className="w-full md:w-1/2 flex justify-center items-center p-8">
             <img
-              src="/assets/typec.png"
+              src="/assets/cover.png"
               alt="Minimalist room design"
               className="w-full rounded-3xl max-w-md h-auto object-contain transition-transform duration-300 hover:scale-105"
             />
           </div>
           <div className="w-full md:w-1/2 p-8 flex flex-col justify-center">
             <h2 className="text-5xl font-bold mb-6">{t("homePage.aboutUs")}</h2> {/* Translate About Us section title */}
-            <p className="text-gray-700 mb-8 text-lg">
+            <p className="mb-8 text-lg">
               {t("homePage.aboutUsContent")} {/* Translate About Us content */}
             </p>
           </div>
@@ -86,7 +86,7 @@ const Home = () => {
       </section>
 
       {/* Gallery Section */}
-      <section className="py-10 bg-gray-50">
+      <section className="py-10">
         <div className="container mx-auto px-4 max-w-4xl">
           {/* <h1 className="text-4xl md:text-5xl font-bold text-center mb-8">
             {t("homePage.OurGallery")}
@@ -157,11 +157,11 @@ const Home = () => {
           <h1 className="text-3xl md:text-5xl font-bold text-white mb-4">
             {t("homePage.contactUs")}
           </h1>
-          <p className="text-lg text-gray-300 mb-8">
+          <p className="text-lg mb-8 text-white">
             {t("homePage.contactUsContent")}
           </p>
           <a href="mailto:alemalrasana@gmail.com">
-            <button className="bg-white rounded-full hover:bg-gray-300 px-6 py-1 text-gray-800 font-semibold text-lg">
+            <button className="bg-white rounded-full hover:bg-gray-300 px-6 py-1 font-semibold text-lg">
               {t("homePage.contactUsButton")}
             </button>
           </a>
@@ -180,7 +180,7 @@ const Home = () => {
           >
             <button
               onClick={closeModal}
-              className="absolute top-2 right-2 text-gray-500 hover:text-gray-800"
+              className="absolute top-2 right-2 "
             >
               &times;
             </button>
