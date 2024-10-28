@@ -59,7 +59,7 @@ export function MyNavbar() {
                   key={item.name}
                   to={item.path}
                   className={({ isActive }) =>
-                    isActive ? "text-black" : "text-[#C4AC6D]"
+                    isActive ? "text-black font-bold" : "text-black "
                   }
                 >
                   {item.name}

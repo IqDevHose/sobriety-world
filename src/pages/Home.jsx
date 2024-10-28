@@ -11,7 +11,7 @@ const Home = () => {
   const [selectedImage, setSelectedImage] = useState("");
 
   const staticImages = [
-    "/assets/cover.png",
+    "/assets/IMG-20240929-WA033.jpg",
     "/assets/IMG-20240929-WA083.jpg",
     "/assets/IMG-20240929-WA049.jpg",
     "/assets/IMG-20240929-WA052.webp"
@@ -153,7 +153,7 @@ const Home = () => {
         }}
       >
         <div className="absolute inset-0 bg-black opacity-60"></div>
-        <div className="relative z-10 text-center w-full">
+        <div className="relative  text-center w-full">
           <h1 className="text-3xl md:text-5xl font-bold text-white mb-4">
             {t("homePage.contactUs")}
           </h1>
